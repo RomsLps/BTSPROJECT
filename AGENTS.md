@@ -26,7 +26,7 @@ because it isn't installed yet; installing it is one command.
 
 ## Conventions
 
-Follow https://symfony.com/doc/current/best_practices.html to write idiomatic
+Follow <https://symfony.com/doc/current/best_practices.html> to write idiomatic
 Symfony:
 
 - Use PHP attributes for framework metadata, and not only on controllers:
@@ -59,7 +59,7 @@ Three specifics worth spelling out, because they are easy to get wrong:
   Don't mark a service `readonly` if it might become `lazy: true`: a lazy proxy
   can't extend a `readonly` class.
 - Use `symfony/lock` (`LockFactory`) for mutual exclusion. A hand-built flag or
-  lock file looks fine in review and is usually wrong under concurrency.
+  lockfile looks fine in review and is usually wrong under concurrency.
 
 ## Everyday workflow
 
