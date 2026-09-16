@@ -104,5 +104,5 @@ things up in the project instead of relying on memory:
 - `bin/console lint:container`, plus `lint:twig templates/` and
   `lint:yaml config/` where those packages are installed: validate before running.
 - Read the installed source and docblocks under `vendor/`.
-- Docs: https://symfony.com/doc/current/ (switch to the version matching
+- Docs: <https://symfony.com/doc/current/> (switch to the version matching
   `composer.json` if it differs).
