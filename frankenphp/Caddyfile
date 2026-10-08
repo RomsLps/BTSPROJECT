@@ -25,6 +25,9 @@
 	encode zstd br gzip
 
 	mercure {
+		# Mercure récent : garde l'ancienne config publisher_jwt/subscriber_jwt
+		protocol_version_compatibility 8
+		name default
 		# Publisher JWT key
 		publisher_jwt {env.MERCURE_PUBLISHER_JWT_KEY} {env.MERCURE_PUBLISHER_JWT_ALG}
 		# Subscriber JWT key

@@ -8,3 +8,12 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> npm ###
+/node_modules/
+###< npm ###
+
+###> IA ###
+/AGENTS.md
+/CLAUDE.md
+###< IA ###

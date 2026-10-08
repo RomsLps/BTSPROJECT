@@ -1,0 +1,26 @@
+{
+  "name": "btsproject",
+  "version": "1.0.0",
+  "description": "Outils front/dev (dbdiagram)",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "db:diagram": "node scripts/db-diagram.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomsLps/BTSPROJECT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RomsLps/BTSPROJECT/issues"
+  },
+  "homepage": "https://github.com/RomsLps/BTSPROJECT#readme",
+  "devDependencies": {
+    "@dbml/cli": "^10.3.0"
+  },
+  "private": true
+}
